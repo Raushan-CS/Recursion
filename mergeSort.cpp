@@ -28,6 +28,7 @@
     if(low == high) return;
 
     int mid = (low+high)/2;
+    // or for edge cases we can take mid = high - (high-low)/2 also.
 
     mergeSort(v, low, mid);
     mergeSort(v, mid+1, high);

@@ -4,7 +4,7 @@ using namespace std;
 
 void combinationSum(int ind, vector<int> &v, int sum, vector<vector<int>> &ans, vector<int>&ds)
 {
-    // We can take a array element any number of time to make target and then print the subsequence basically.
+    // We can take an array element any number of time to make target and then print the subsequence basically.
     // Time complexity: O(2^t * k) and aux space : k * x(combinations)
 
     if(ind == v.size()) {
